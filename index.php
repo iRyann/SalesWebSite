@@ -7,6 +7,7 @@
     <link href="CSS/style.css" rel="stylesheet" />
     <link href="CSS/index.css" rel="stylesheet" />
     <link href="CSS/aside.css" rel="stylesheet" />
+    <script src="JS/sidenav.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
@@ -15,15 +16,11 @@
 <body>   
     <?php
     include './PHP/header.php';
+    include './PHP/aside.php';
     ?>
-    <div class="sidenav">
-        <a href="index.php">Accueil</a>
-        <a href="webdesign.php">Webdesign</a>
-        <a href="photographie.php">Photographie</a>
-        <a href="illustration.php">Illustration</a>
-        <a href="#contact">Contact</a>
-    </div>
-    <main class="main">
+    
+    <main id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
         <section class="accueil-introduction">
             <div>
                 <h1>Heliapo </h1>
