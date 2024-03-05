@@ -1,0 +1,69 @@
+
+.webdesign-introduction img {
+    max-height: 150%;
+    width: auto;
+}
+.webdesign-introduction {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    align-items: center;
+    margin: auto;
+    height: 15vh;
+}
+
+.webdesign-introduction h1 {
+    margin-bottom: 15px;
+}
+
+.webdesign-introduction p {
+    margin-bottom: 30px;
+    padding: 0 20px 0 0;
+}
+
+.webdesign-introduction div {
+    padding-right: 80px;
+}
+table {
+    width: 55%;
+    border-collapse: collapse;
+
+    margin: 0 auto;
+    padding: 0;
+}
+
+h2 {
+
+    color: #A5B4FC;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 20px;
+
+}
+
+th {
+color: rgb(0, 0, 0);
+font-weight: bold;
+padding: 10px 20px;
+text-align: center;
+border: 1px solid #A5B4FC
+
+}
+
+td {
+border: 1px solid #A5B4FC;
+padding: 30px 10px;
+text-align: center;
+color : rgb(0, 0, 0);
+}
+
+.webdesign-sales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
